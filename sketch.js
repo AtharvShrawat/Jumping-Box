@@ -49,7 +49,7 @@ function draw() {
 
 
     if(block2.isTouching(ball) && ball.bounceOff(block2)){
-        ball.shapeColor = rgb(225,128,0);
+        ball.shapeColor = rgb(255,128,0);
         //write code to set velocityX and velocityY of ball as 0
         ball.velocityX = 0;
         ball.velocityY = 0;
@@ -68,4 +68,3 @@ function draw() {
     }
 
     drawSprites();
-}
